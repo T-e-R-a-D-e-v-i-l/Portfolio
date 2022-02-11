@@ -1,0 +1,152 @@
+.body{
+   margin: 0;
+   font-family: 'Cormorant Infant', serif;
+   background-color: rgb(202, 232, 241);
+   }
+
+a{
+    text-decoration:none;
+    color: rgb(36, 41, 46);
+}
+
+a:hover{
+    color: rgb(69, 46, 199);
+    text-decoration: underline;
+}
+
+a:visited{
+    color: rgb(91, 32, 114);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    padding: 20px;
+    background-color: rgb(109, 187, 201);
+    border-bottom: 3px double rgb(0, 0, 0);
+    }
+
+.container{
+   font:oblique 24px bold;
+   margin: 0 15px 0 15px;
+   font-weight: 600;
+   padding: 5px;
+   }
+
+.me{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    border-bottom: 3px double rgb(0, 0, 0);
+    }
+
+.photo{
+    object-fit: cover;
+    max-width: 500px;
+    max-height: auto;
+    }
+
+.text{
+    background-color: rgb(202, 232, 241);
+    padding: 20px;
+    font-size: 20px;
+}
+
+#h1{
+    font-size: 34px;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(19, 19, 54);
+}
+
+#p{
+    text-indent:30px;
+    font-size: 24px;
+    }
+
+.skill{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color: rgb(202, 232, 241);
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 3px double rgb(0, 0, 0);
+}
+
+.example{
+    background-color: rgb(202, 232, 241);
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 10px;
+}
+
+.h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#pr1{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(109, 187, 201);
+    border-top: 3px double rgb(0, 0, 0);
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(109, 187, 201);
+    padding:5px 5px 20px 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.telephone{
+    padding: 5px;
+}
+
+.namber{
+    font-size: 20px;
+    color: rgba(46, 116, 46, 0.918);
+    margin-right: 5px;
+}
+
+.mail{
+    padding: 5px;
+    font-size: 20px;
+  }
+
+.mail_ru{
+    font-size: 20px;
+    margin-right: 5px;
+    color: rgb(33, 105, 75);
+    }
+
+.instagram{
+    padding: 5px;
+    font-size: 20px;
+   }
+
+.insta_icon{
+    font-size: 20px;
+    margin-right: 5px;
+    color: rgb(69, 24, 173);
+}
